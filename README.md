@@ -2,11 +2,15 @@
 
 > ## Bibliotecas e Ferramentas
 
--   NPM
--   Git
--   Husky
--   Eslint
--   Prettier'
+- NPM
+- Git
+- Husky
+- Eslint
+- Prettier
+- Pg
+- Express
+- Dotenv
+-
 
 ---
 
@@ -25,18 +29,18 @@ Em seguida, instale as dependências:
 
 > ## Scripts disponíveis
 
--   `npm start` - Inicia a API em modo de desenvolvimento.
--   `npm run build` - Cria uma build do projeto para produção.
+- `npm start` - Inicia a API em modo de desenvolvimento.
+- `npm run build` - Cria uma build do projeto para produção.
 
 ---
 
 > ## Rotas
 
--   `/transactions` - Lista todas as transações.
--   `/transactions/:id` - Exibe uma transação específica.
--   `/transactions/create` - Cria uma nova transação.
--   `/transactions/update/:id` - Atualiza uma transação específica.
--   `/transactions/delete/:id` - Deleta uma transação específica.
+- `/transactions` - Lista todas as transações.
+- `/transactions/:id` - Exibe uma transação específica.
+- `/transactions/create` - Cria uma nova transação.
+- `/transactions/update/:id` - Atualiza uma transação específica.
+- `/transactions/delete/:id` - Deleta uma transação específica.
 
 ---
 
